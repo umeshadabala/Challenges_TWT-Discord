@@ -6,7 +6,7 @@
 #Story:
 #In addition to Boe Jiden having difficulty going up stairs, he also has difficulty writing on the keyboard. He keeps accidently typing numbers when there is no need for them.
 #Task: You are given a number T and T testcases follow, for each testcase remove any numbers embedded into words, and print the resulting sentence.
-3
+
 for i in range(int(input())):
   text = input()
   Output = ''.join(t if t not in map(str,range(0,10)) else "" for t in text)
