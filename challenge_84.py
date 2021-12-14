@@ -2,6 +2,11 @@
 #Rules
 #Enter the text with mixture of numbers and text
 #Output will print without numbers
-Text = input("Enter the text with mixture of numbers and text:  ") 
-Output = ''.join(c if c not in map(str,range(0,10)) else "" for c in Text)
-print(Output)
+for i in range(int(input())):
+  text = input()
+  Output = ''.join(t if t not in map(str,range(0,9)) else "" for t in text)
+  print(Output)
+
+
+
+
