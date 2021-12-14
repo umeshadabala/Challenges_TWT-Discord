@@ -4,7 +4,7 @@
 #Output will print without numbers
 for i in range(int(input())):
   text = input()
-  Output = ''.join(t if t not in map(str,range(0,9)) else "" for t in text)
+  Output = ''.join(t if t not in map(str,range(0,10)) else "" for t in text)
   print(Output)
 
 
